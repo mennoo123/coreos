@@ -1,0 +1,29 @@
+{
+  "ignition": {
+    "config": {},
+    "timeouts": {},
+    "version": "2.1.0"
+  },
+  "networkd": {},
+  "passwd": {
+    "users": [
+      {
+        "name": "core",
+        "passwordHash": "$1$X8a8lUQ7$B1stMdTb3c2jpbnt4ygyD0",
+        "sshAuthorizedKeys": [
+          "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDg3ksV0Vvh2XPncXQ/dfYlACXW/K1LVlxcqC9D/D0w7/CDh2lxMOpr1LvSUIudDPpA2/1qDIIXlRKmkMNEoXICB76NEtPs2vObzDZ/J5PwpCuI3Bt7Q0ijsBnxyYwMnO46XMFVktSbPWj4sQxk4HlkVTxmYfNd13fvjjAJRfUCQsiyA7FqH7xmchjTNUMXmfS8kB0BdQiRWE0r556zlbtOHazi5a3J6lz2QMBxkdi91aC2D/ADZNuPvH/0/bL/wwoBtAwO2+CQWYW6xeLJBBXLp6/j3j+huQzWHd4iVrGZRcMb8XUaeq4G0bChhInDhprGjrjgMMZIsgOVisE8KnR7 core@core"
+        ]
+              }
+    ]
+  },
+  "storage": {
+    "files": [{
+      "filesystem": "root",
+      "path": "/etc/hostname",
+      "mode": 420,
+      "contents": { "source": "data:,core" }
+    }]
+  },
+  "systemd": {}
+}
+
