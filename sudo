@@ -1,1 +1,1 @@
-core ALL=(ALL) NOPASSWD: ALL
+menno ALL=(ALL) NOPASSWD: ALL
